@@ -1,10 +1,29 @@
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 10px 20px;
+  padding: 10px 0;
   border-bottom: 1px solid #dbdbdb;
   background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+header h1 {
+  font-size: 28px;
+  font-family: 'Billabong', 'Grand Hotel', cursive; /* A font that looks like Instagram's */
+}
+
+header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header nav a {
+  margin-left: 20px;
+  font-size: 16px;
 }
 
 header input {

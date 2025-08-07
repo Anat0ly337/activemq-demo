@@ -1,0 +1,8 @@
+.messenger-container {
+  display: flex;
+  height: calc(100vh - 60px); /* Full height minus header */
+  max-width: 935px;
+  margin: 0 auto;
+  border: 1px solid #dbdbdb;
+  background-color: #fff;
+}
