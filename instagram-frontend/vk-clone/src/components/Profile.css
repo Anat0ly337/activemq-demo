@@ -1,6 +1,50 @@
-main {
-  background-color: #FFFFFF;
+.profile-page {
   flex-grow: 1;
-  padding: 20px;
+}
+
+.profile-header-wrapper {
+  background-color: #FFFFFF;
   border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+}
+
+.profile-avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 30px;
+  border: 2px solid #E7E8EC;
+}
+
+.profile-info h1 {
+  margin: 0 0 10px 0;
+  font-size: 24px;
+}
+
+.profile-status {
+  color: #818C99;
+  font-size: 14px;
+}
+
+.profile-content-wrapper {
+  display: flex;
+}
+
+.profile-wall {
+  flex-grow: 1;
+  margin-right: 20px;
+}
+
+.profile-sidebar {
+  width: 250px;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  padding: 15px;
+  height: fit-content;
 }

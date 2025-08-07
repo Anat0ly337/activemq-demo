@@ -1,0 +1,14 @@
+.news-page {
+  flex-grow: 1;
+}
+
+.news-page h2 {
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  padding: 20px;
+  margin: 0 0 10px 0;
+}
+
+.news-feed {
+  /* The posts will be styled by Post.css, this is just a container */
+}

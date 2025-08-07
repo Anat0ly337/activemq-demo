@@ -14,11 +14,26 @@ nav ul {
 }
 
 nav li {
-  padding: 8px 0;
+  /* Remove padding and color from here */
   cursor: pointer;
-  color: #2A5885;
+  margin-bottom: 2px; /* Add some space between items */
 }
 
-nav li:hover {
-  text-decoration: underline;
+.nav-link {
+  text-decoration: none;
+  color: #2A5885;
+  display: block;
+  padding: 8px 10px; /* Add some horizontal padding */
+  border-radius: 4px;
+}
+
+.nav-link:hover {
+  background-color: #F5F7FA;
+  text-decoration: none;
+}
+
+.nav-link.active {
+  background-color: #E5EBF1;
+  color: #000000;
+  font-weight: bold;
 }
