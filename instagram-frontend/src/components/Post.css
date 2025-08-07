@@ -1,0 +1,19 @@
+article {
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  margin-bottom: 60px;
+  background-color: #fff;
+}
+
+article h3 {
+  padding: 16px;
+  font-size: 14px;
+}
+
+article img {
+  width: 100%;
+}
+
+article p {
+  padding: 0 16px;
+}
