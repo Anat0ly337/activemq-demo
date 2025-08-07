@@ -1,0 +1,70 @@
+.search-form-wrapper {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 900px;
+}
+
+.search-form-wrapper h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.search-form-tabs {
+  margin-bottom: 20px;
+}
+
+.search-form-tabs button {
+  background: none;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  font-size: 18px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.search-form-tabs button.active {
+  opacity: 1;
+  border-bottom: 2px solid white;
+}
+
+.search-form-inputs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-form-inputs input {
+  flex-grow: 1;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.search-flights-button {
+  width: 100%;
+  padding: 20px;
+  background-color: #ff6d00;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.search-form-options {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.search-form-options button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
